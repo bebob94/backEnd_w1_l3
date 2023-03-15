@@ -15,9 +15,8 @@ public class whilee {
 			String[] letters = myString.split("");
 			System.out.println(String.join(",", letters));
 			
-		}while(myString !="q");
+		}while(!myString.equals("q") );
 			
-		
 	}
 	
 }

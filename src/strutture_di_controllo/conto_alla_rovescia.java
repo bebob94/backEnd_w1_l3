@@ -10,10 +10,10 @@ public class conto_alla_rovescia {
         
 		for(int i = 0; i < 2; i++) {
 			
-			System.out.println("Inserisci un numero:");
+			System.out.println("Inserisci un numero: ");
 			number = s.nextInt();
 			
-			for(int j=number;j>0;j--) {
+			for(int j=number; j>0; j--) {
 				System.out.println(j);
 			}
 		}
